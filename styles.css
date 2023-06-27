@@ -30,7 +30,11 @@ img {
   overflow: auto;
 }
 
-a[href^="https://rupayan.github.io"] {
-  color: black; /* Set the color to black or any other desired color */
+a[href^="https://mywebsitename.github.io"] {
+  color: transparent; /* Make the link text invisible */
   text-decoration: none; /* Remove the underline if present */
+}
+
+h2 {
+  display: none; /* Hide the 'Your Content' heading */
 }
